@@ -6,6 +6,6 @@ envs:
       value: /opt/spark-distro
 packages:
     install:
-      - python36
+      - python38
 execute:
     - script: install
