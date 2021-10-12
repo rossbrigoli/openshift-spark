@@ -4,6 +4,8 @@
 
 # Apache Spark images for OpenShift
 
+This is a fork of Radanaytics openshift-spark. This has python 3.8 instead of 3.6.
+
 This repository contains several files for building
 [Apache Spark](https://spark.apache.org) focused container images, targeted
 for usage on [OpenShift Origin](https://openshift.org).
@@ -11,7 +13,7 @@ for usage on [OpenShift Origin](https://openshift.org).
 By default, it will build the following images into your local Docker
 registry:
 
-* `openshift-spark`, Apache Spark, Python 3.6
+* `openshift-spark`, Apache Spark, Python 3.8
 
 For Spark versions, please see the `image.yaml` file.
 
@@ -55,7 +57,7 @@ This gives users an alternative to checking out the repository
 and modifying build files if they want to run a custom
 Spark distribution. By default, the partial images built will be
 
-* `openshift-spark-inc`, Apache Spark, Python 3.6
+* `openshift-spark-inc`, Apache Spark, Python 3.8
 
 ## Build
 
